@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+     width: 100%;
+     padding-right: 5%;
+     background-size: cover;
+     
+     
+ 
+}
+
+ a{
+ float: right;
+ padding-right: 5%;
+ text-decoration: none;
+ color:whitesmoke ;
+ font-size: 40px;
+ 
+ 
+ 
+}
+.navbar {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.navbar a:hover{
+    background-color: lightgray;
+    
+}
+h1{
+    border-style: solid dotted ;
+    border-color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+marquee{
+    border-style: double ;
+    border-color: red;
+}
+
+.mahee{
+    position: relative;
+    left: 50px;
+    text-align: center;
+   
+    
+}
+.Mahesh{
+    float: right;
+    position: relative;
+    right: 60px;
+    top: 50px;
+    width: 350px;
+    height: 350px;
+
+}
+.rp{
+    position:relative;
+    left: 40%;
+    top: 50px;
+    
+}
+
+@media  (max-width: 500px) {
+    .navbar {
+     /* font-size: 20px; */
+     flex-wrap: wrap; 
+   
+    }
+    a{
+        font-size: 10px;
+    }
+   
+  }

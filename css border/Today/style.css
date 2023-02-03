@@ -1,0 +1,45 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+ }
+ 
+ 
+ .nav{
+    display: flex;
+    background-color: black;
+    padding: 15px 20px;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.list{
+    display: flex;
+gap: 20px;
+}
+li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+  
+
+   font-size: 20px;
+  
+}
+@media(max-width:580px){
+    .list{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+}
+#toogle, label{
+    display: none;
+    
+}
+#toggle:checked ~ .list{
+    display: flex ;
+}
